@@ -1,0 +1,86 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Marcos\Documents\TP4_Beatriz_MarcosJunio\simulation\modelsim
+varbiter
+!i10b 1
+!s100 f@WmlDj7Y5XA8A=G>zUJQ1
+Iz4NB[>FM1lbjOERDGUHQ30
+VFAg[[nI1EdR_P]UiCEMGD1
+Z1 dC:\Users\Marcos\Documents\TP4_Beatriz_MarcosJunio\simulation\modelsim
+Z2 w1607183726
+Z3 8C:/Users/Marcos/Documents/TP4_Beatriz_MarcosJunio/Snooping.v
+Z4 FC:/Users/Marcos/Documents/TP4_Beatriz_MarcosJunio/Snooping.v
+L0 1
+Z5 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z6 !s108 1607183885.961000
+Z7 !s107 C:/Users/Marcos/Documents/TP4_Beatriz_MarcosJunio/Snooping.v|
+Z8 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Marcos/Documents/TP4_Beatriz_MarcosJunio|C:/Users/Marcos/Documents/TP4_Beatriz_MarcosJunio/Snooping.v|
+!s101 -O0
+Z9 o-vlog01compat -work work -O0
+Z10 !s92 -vlog01compat -work work +incdir+C:/Users/Marcos/Documents/TP4_Beatriz_MarcosJunio -O0
+vcache
+!i10b 1
+!s100 L[R3]4z43<<NNMPnEn4683
+If6453Zz7:g:V5178g1=Po1
+VD@5GW1ZZk:kkT?80bHf5k3
+R1
+R2
+R3
+R4
+L0 272
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+R9
+R10
+vmemoria
+I0U?_LY1DMJf^jKG;P`5^E2
+Vhm0kW:ZCoL7]Dg8>UL7]g3
+R1
+w1544366460
+8C:/Users/Marcos/Documents/TP4_Beatriz_MarcosJunio/memoria.v
+FC:/Users/Marcos/Documents/TP4_Beatriz_MarcosJunio/memoria.v
+L0 1
+R5
+r1
+31
+R9
+!i10b 1
+!s100 ziYHM7D7FLaWjUW99WaJd0
+!s85 0
+!s108 1607183885.856000
+!s107 C:/Users/Marcos/Documents/TP4_Beatriz_MarcosJunio/memoria.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Marcos/Documents/TP4_Beatriz_MarcosJunio|C:/Users/Marcos/Documents/TP4_Beatriz_MarcosJunio/memoria.v|
+!s101 -O0
+R10
+vSnooping
+!i10b 1
+!s100 19YSJfKMacammXf]QjC[E0
+IcB^5]QT3T8Aok`O_@NRGQ1
+VZhfe1fKOZfe5Te1N]eVJI0
+R1
+R2
+R3
+R4
+L0 617
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+R9
+R10
+n@snooping

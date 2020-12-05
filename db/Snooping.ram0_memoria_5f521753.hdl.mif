@@ -1,0 +1,27 @@
+-- begin_signature
+-- memoria
+-- end_signature
+WIDTH=4;
+DEPTH=16;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=BIN;
+
+CONTENT BEGIN
+	15 :	1111;
+	14 :	1110;
+	13 :	XXXX;
+	12 :	XXXX;
+	11 :	XXXX;
+	10 :	1010;
+	9 :	1001;
+	8 :	XXXX;
+	7 :	XXXX;
+	6 :	XXXX;
+	5 :	0101;
+	4 :	0100;
+	3 :	XXXX;
+	2 :	XXXX;
+	1 :	XXXX;
+	0 :	0101;
+END;

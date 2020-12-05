@@ -1,0 +1,65 @@
+# Reading C:/altera/13.0/modelsim_ase/tcl/vsim/pref.tcl 
+# ERROR: No extended dataflow license exists
+# do Snooping_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Marcos/Documents/TP4_Beatriz_MarcosJunio {C:/Users/Marcos/Documents/TP4_Beatriz_MarcosJunio/memoria.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module memoria
+# 
+# Top level modules:
+# 	memoria
+# vlog -vlog01compat -work work +incdir+C:/Users/Marcos/Documents/TP4_Beatriz_MarcosJunio {C:/Users/Marcos/Documents/TP4_Beatriz_MarcosJunio/Snooping.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module arbiter
+# -- Compiling module cache
+# ** Warning: C:/Users/Marcos/Documents/TP4_Beatriz_MarcosJunio/Snooping.v(301): (vlog-2263) Redefinition of macro: Data.
+# 
+# -- Compiling module Snooping
+# 
+# Top level modules:
+# 	Snooping
+# 
+vsim +altera -do Snooping_run_msim_rtl_verilog.do -l msim_transcript -gui work.memoria work.cache work.Snooping work.arbiter
+# vsim +altera -do Snooping_run_msim_rtl_verilog.do -l msim_transcript -gui work.memoria work.cache work.Snooping work.arbiter 
+# Loading work.memoria
+# Loading work.cache
+# Loading work.Snooping
+# Loading work.arbiter
+# do Snooping_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Marcos/Documents/TP4_Beatriz_MarcosJunio {C:/Users/Marcos/Documents/TP4_Beatriz_MarcosJunio/memoria.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module memoria
+# 
+# Top level modules:
+# 	memoria
+# vlog -vlog01compat -work work +incdir+C:/Users/Marcos/Documents/TP4_Beatriz_MarcosJunio {C:/Users/Marcos/Documents/TP4_Beatriz_MarcosJunio/Snooping.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module arbiter
+# -- Compiling module cache
+# ** Warning: C:/Users/Marcos/Documents/TP4_Beatriz_MarcosJunio/Snooping.v(301): (vlog-2263) Redefinition of macro: Data.
+# 
+# -- Compiling module Snooping
+# 
+# Top level modules:
+# 	Snooping
+# 
+add wave -position insertpoint sim:/cache/*
+add wave -position insertpoint sim:/Snooping/*
+add wave -position insertpoint sim:/arbiter/*
+add wave -position insertpoint sim:/memoria/*

@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Marcos/Documents/TP4_Beatriz_MarcosJunio/memoria.v
+source_file = 1, C:/Users/Marcos/Documents/TP4_Beatriz_MarcosJunio/Snooping.v
+source_file = 1, C:/Users/Marcos/Documents/TP4_Beatriz_MarcosJunio/db/Snooping.cbx.xml
+design_name = Snooping
+instance = comp, \clock~I\, clock, Snooping, 1
+instance = comp, \cpu[0]~I\, cpu[0], Snooping, 1
+instance = comp, \cpu[1]~I\, cpu[1], Snooping, 1
+instance = comp, \cpu[2]~I\, cpu[2], Snooping, 1
+instance = comp, \cpu[3]~I\, cpu[3], Snooping, 1
+instance = comp, \cpu[4]~I\, cpu[4], Snooping, 1
+instance = comp, \cpu[5]~I\, cpu[5], Snooping, 1
+instance = comp, \cpu[6]~I\, cpu[6], Snooping, 1
+instance = comp, \cpu[7]~I\, cpu[7], Snooping, 1
+instance = comp, \cpu[8]~I\, cpu[8], Snooping, 1
+instance = comp, \cpu[9]~I\, cpu[9], Snooping, 1
+instance = comp, \cpu[10]~I\, cpu[10], Snooping, 1
